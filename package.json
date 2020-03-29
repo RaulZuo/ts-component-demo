@@ -1,0 +1,53 @@
+{
+  "name": "ts-component-demo",
+  "version": "1.0.0",
+  "description": "react component demo with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build:ts": "rimraf es && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulZuo/ts-component-demo.git"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "component"
+  ],
+  "author": "raulzuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaulZuo/ts-component-demo/issues"
+  },
+  "homepage": "https://github.com/RaulZuo/ts-component-demo#readme",
+  "dependencies": {
+    "@alifd/next": "^1.19.21",
+    "@types/node": "^13.9.5",
+    "@types/prop-types": "^15.7.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/runtime": "^7.9.2",
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.5",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "peerDependencies": {
+    "react": ">=16.4.0",
+    "react-dom": ">=16.4.0"
+  }
+}
