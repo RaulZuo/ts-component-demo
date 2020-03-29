@@ -13,6 +13,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 import React, { Component } from 'react';
 import ClassComponent from './components/ClassComponent';
+import FunctionComponent from './components/FunctionComponent';
 var Index = (function (_super) {
     __extends(Index, _super);
     function Index() {
@@ -21,7 +22,8 @@ var Index = (function (_super) {
     Index.prototype.render = function () {
         return (React.createElement("div", null,
             React.createElement("span", null, "This is a react component with typescript"),
-            React.createElement(ClassComponent, null)));
+            React.createElement(ClassComponent, null),
+            React.createElement(FunctionComponent, null)));
     };
     return Index;
 }(Component));

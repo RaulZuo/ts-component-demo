@@ -12,7 +12,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 import React, { Component } from 'react';
-import './SubComponent.scss';
+import './index.scss';
 var ClassComponent = (function (_super) {
     __extends(ClassComponent, _super);
     function ClassComponent() {
