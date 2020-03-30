@@ -4,4 +4,5 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = {
   module: 'production',
+  entry: ''
 };
